@@ -1,0 +1,3 @@
+{"ts":1373296232136,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1373296110611,"patch":[[{"diffs":[[1,"extends layout\n\nblock content\n  \n  #container\n  each js in scripts\n    script(src= js)"]],"start1":0,"start2":0,"length1":0,"length2":86}]],"length":86,"saved":false}
+{"ts":1373296113373,"patch":[[{"diffs":[[0,"ent\n"],[-1,"  \n"],[0,"  #c"]],"start1":26,"start2":26,"length1":11,"length2":8}]],"length":83,"saved":false}

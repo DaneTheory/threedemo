@@ -1,0 +1,6 @@
+{"ts":1372290225799,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1372290422240,"patch":[[{"diffs":[[1,"{\n  \"name\": \"three project\",\n  \"version\": \"0.0.1\",\n  \"private\": true,\n  \"scripts\": {\n    \"start\": \"node app.js\"\n  },\n  \"dependencies\": {\n    \"express\": \"3.2.1\",\n    \"jade\": \"*\",\n    \"three\":\"*\"\n  }\n}"]],"start1":0,"start2":0,"length1":0,"length2":199}]],"length":199,"saved":false}
+{"ts":1372290438608,"patch":[[{"diffs":[[0,": \"three"],[-1," "],[0,"project\""]],"start1":10,"start2":10,"length1":17,"length2":16}]],"length":198,"saved":false}
+{"ts":1372292921290,"patch":[[{"diffs":[[0,"ree\":\"*\""],[1,",\n    \"requirejs\":\"*\""],[0,"\n  }\n}"]],"start1":184,"start2":184,"length1":14,"length2":35}]],"length":219,"saved":false}
+{"ts":1372293058908,"patch":[[{"diffs":[[0,":\"*\""],[-1,",\n    \"requirejs\":\"*\""],[0,"\n  }"]],"start1":188,"start2":188,"length1":29,"length2":8}]],"length":198,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1372980761418,"patch":[[{"diffs":[[0,"ree\":\"*\""],[1,",\n    \"socket.io\":\"*\""],[0,"\n  }\n}"]],"start1":184,"start2":184,"length1":14,"length2":35}]],"length":219,"saved":false}

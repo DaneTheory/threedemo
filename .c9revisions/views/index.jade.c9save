@@ -1,0 +1,6 @@
+{"ts":1372290569454,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"extends layout\n\nblock content\n  h1= title\n  p Welcome to #{title}"]],"start1":0,"start2":0,"length1":0,"length2":65}]],"length":65}
+{"contributors":[],"silentsave":false,"ts":1372293222480,"patch":[[{"diffs":[[0,"#{title}"],[1,"\n  #container\n  "]],"start1":57,"start2":57,"length1":8,"length2":24}]],"length":81,"saved":false}
+{"ts":1373296063699,"patch":[[{"diffs":[[0,"ainer\n  "],[1,"each js in scripts\n    script(src= js)"]],"start1":73,"start2":73,"length1":8,"length2":46}]],"length":119,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1373304011778,"patch":[[{"diffs":[[0,"ent\n"],[-1,"  h1= title\n  p Welcome to #{title}\n"],[0,"  #c"]],"start1":26,"start2":26,"length1":44,"length2":8}]],"length":83,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1373387032122,"patch":[[{"diffs":[[0,"content\n"],[1,"  button #move test\n"],[0,"  #conta"]],"start1":22,"start2":22,"length1":16,"length2":36}]],"length":103,"saved":false}
+{"ts":1373387043213,"patch":[[{"diffs":[[0,"  button"],[-1," "],[0,"#move te"]],"start1":30,"start2":30,"length1":17,"length2":16}]],"length":102,"saved":false}
