@@ -12,28 +12,28 @@ var express = require('express'),
     numCPUs = require('os').cpus().length,
     cluster = require('cluster');
 
-if (cluster.isMaster) {
-    // Fork workers. One per CPU for maximum effectiveness
-    for (var i = 0; i < numCPUs; i++) {
-        cluster.fork();
-    }
+// if (cluster.isMaster) {
+//     // Fork workers. One per CPU for maximum effectiveness
+//     for (var i = 0; i < numCPUs; i++) {
+//         cluster.fork();
+//     }
 
-    cluster.on('exit', function(deadWorker, code, signal) {
-        // Restart the worker
-        var worker = cluster.fork();
+//     cluster.on('exit', function(deadWorker, code, signal) {
+//         // Restart the worker
+//         var worker = cluster.fork();
 
-        // Note the process IDs
-        var newPID = worker.process.pid;
-        var oldPID = deadWorker.process.pid;
+//         // Note the process IDs
+//         var newPID = worker.process.pid;
+//         var oldPID = deadWorker.process.pid;
 
-        // Log the event
-        console.log('worker ' + oldPID + ' died.');
-        console.log('worker ' + newPID + ' born.');
-    });
-}
-else {
+//         // Log the event
+//         console.log('worker ' + oldPID + ' died.');
+//         console.log('worker ' + newPID + ' born.');
+//     });
+// }
+// else {
     // all environments
-    app.set('port', process.env.PORT || 80);
+    app.set('port', process.env.PORT || 3000);
     app.set('views', __dirname + '/views');
     app.set('view engine', 'jade');
     app.use(express.favicon());
@@ -60,4 +60,4 @@ else {
     http.listen(app.get('port'), function() {
         console.log('Express server listening on port ' + app.get('port'));
     });
-}
+// }
